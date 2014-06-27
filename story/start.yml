@@ -1,8 +1,13 @@
 title: STAR WARS!!!
-description: "Pick one of the items below:"
+description: "You are an A-wing pilot who was attacked 
+in the outer rim by a group of Imperial TIE fighters. 
+You barely escape but your ship is badly damaged. After
+landing on a seemingly deserted moon in the outer rim, 
+the A-wing dies leaving you helpless in the middle of nowhere.
+You are only able to carry 3 things. Choose from the list below."
 stuff:
   limit: 3
-  limit_message: "Your crew shot you."
+  limit_message: "You picked more than 3 things. As you start to walk, the extra weight is just enough to pull you into a pit of quicksand you didn't see. Too bad it had to end so soon. Try again!"
   options:
     - Blaster
     - Grappling Hook
@@ -11,13 +16,13 @@ stuff:
     - Thermal Detonator
     - Electronic Lock Pick
 questions:
-  - text: Some question text
+  - text: Now that you have your inventory, it's time to figure out where to go. 
     options:
 
-      - text: Something else
-        goto_file: branch_name.yml
-        requires_stuff: 
-          - blaster
+      - text: Start walking in the direction of the sunset.
+          goto_file: right_branch.yml
+        # requires_stuff: 
+        #  - blaster
 
-      - text: Another question
-        death: You die
+      - text: Sleep in your ship for the night and start early tomorrow
+       
