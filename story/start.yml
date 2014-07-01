@@ -16,13 +16,10 @@ stuff:
     - Thermal Detonator
     - Electronic Lock Pick
 questions:
-  - text: Now that you have your inventory, it's time to figure out where to go. 
+  - text: "Now that you have your inventory, it's time to figure out where to go." 
     options:
+      - text: "Start walking in the direction of the sunset."
+        goto_file: right_branch.yml
 
-      - text: Start walking in the direction of the sunset.
-          goto_file: right_branch.yml
-        # requires_stuff: 
-        #  - blaster
-
-      - text: Sleep in your ship for the night and start early tomorrow
-       
+      - text: "Sleep in your ship for the night and start early tomorrow"
+        death: "You died"

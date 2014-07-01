@@ -1,6 +1,9 @@
+title: ""
+description: ""
+stuff: []
 questions:
-    - text: "After walking for about an hour, you come upon some sort of buried building."
-  
-  options:
+  - text: "After walking for about an hour, you come upon some sort of buried building."
+    options:
       - text: "Search the building"
-  
+      - text: "Continue on."
+        goto_file: file_name.yml
