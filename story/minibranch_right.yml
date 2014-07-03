@@ -1,0 +1,17 @@
+title: ""
+description: ""
+stuff: []
+questions:
+  - text: "You end up walking for 2 hours. The sun has just set and you see a faint light in the distance.
+  As you walk closer, you here the sound of angry shouting. You can see 3 men in cloaks are sitting around a fire. Two of them are shouting at each other while the other is sitting there seemingly unaware of the conversation. Do you want to,"
+    options:
+      - text: "Sneak closer and listen to them"
+      - text: "Rush into the light"
+        death: "Bad thinking! The moment you become visible, the man sitting on the ground backflips and whips out a red lightsaber. He cuts you in half before you could blink."
+        
+  - text: "You crawl close enough to hear them talking. They are speaking in a language which you have trouble understanding. You write the conversation down on a small rock with some charcole. Do you want to,"
+    options:
+      - text: "Leave as quietly as possible"
+      
+      - text: "Stay to hear more"
+        death: "Whoops! Got a little to greedy did we. You made the slightest noise and all 3 of the men obviously hear you. There is not time to escape. You see a bright flash, feel a terrible pain, and fall dead."

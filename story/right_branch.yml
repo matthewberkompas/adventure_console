@@ -6,4 +6,18 @@ questions:
     options:
       - text: "Search the building"
       - text: "Continue on."
-        goto_file: file_name.yml
+        goto_file: minibranch_right.yml
+        
+  - text: "As you enter, you hear a sound of footsteps somewhere below."
+    options:
+      - text: "Investigate the sound."
+      
+      - text: "Leave the building and continue on."
+        goto_file: minibranch_right.yml
+        
+  - text: "You slowly walk down the stairs. Suddenly, someone in a dark cloak rushes out of a doorway to your left and runs you over."
+    options:
+      - text: "Chase after him"
+        
+      - text: "Keep searching"
+        death: "Imperial Storm-Troopers come down the passage way and mistake you for the guy who ran you over. You are shot by a dozen blasters."

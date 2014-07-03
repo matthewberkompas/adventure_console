@@ -22,4 +22,16 @@ questions:
         goto_file: right_branch.yml
 
       - text: "Sleep in your ship for the night and start early tomorrow"
-        death: "You died"
+      
+  - text: "You are woken up by something banging on your cockpit. You look up in surprise to see
+      a hideous tusken raider screaming and trying to break in."
+    options:
+      - text: "Open the cockpit and shoot them."
+        
+      - text: "Stay inside until they leave."
+        death: "Unfortunatly, you learn the hard way that tusken raiders are very stubborn. Before long, you see one of them carrying some sort of makeshift bomb. Rather than let you escape, they detonate the bomb and you die a painless death!"
+        
+  - text: "After failing to open it the normal way, you decide to use force eject which blows the windsheild off with a huge bang. The raiders are terrified and scatter in all directions. You have very little time to escape."
+    options: 
+      - text: "Go towards the hills"
+      - text: "Run to the desert"
